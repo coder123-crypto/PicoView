@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyVersion>2022.12.27</AssemblyVersion>
+        <FileVersion>2022.22.27</FileVersion>
+        <TargetFrameworks>net6.0</TargetFrameworks>
+        <Authors>Leonid Eremin</Authors>
+        <Copyright>leremin (c)</Copyright>
+        <RepositoryType>git</RepositoryType>
+        <Title>PicoView.Core</Title>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+</Project>
