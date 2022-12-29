@@ -3,14 +3,15 @@
     <PropertyGroup>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <AssemblyVersion>2022.12.27</AssemblyVersion>
-        <FileVersion>2022.22.27</FileVersion>
+        <AssemblyVersion>2022.12.29</AssemblyVersion>
+        <FileVersion>2022.22.29</FileVersion>
         <TargetFrameworks>net6.0</TargetFrameworks>
         <Authors>Leonid Eremin</Authors>
         <Copyright>leremin (c)</Copyright>
         <RepositoryType>git</RepositoryType>
         <Title>PicoView.Core</Title>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Version>1.1.0</Version>
     </PropertyGroup>
 
 </Project>

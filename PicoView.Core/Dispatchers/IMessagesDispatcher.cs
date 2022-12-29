@@ -18,6 +18,7 @@ public interface IMessagesDispatcher
 
     bool AskQuestion(string question);
     bool AskQuestion(string mainInstruction, string content);
+    bool AskQuestion(string mainInstruction, string content, string verificationText, out bool isVerificationChecked);
     bool AskQuestion(string question, out bool cancelled);
 
     bool? AskNullableQuestion(string question);

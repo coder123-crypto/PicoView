@@ -1,17 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <UseWPF>true</UseWPF>
-        <AssemblyVersion>2022.22.27</AssemblyVersion>
-        <FileVersion>2022.22.27</FileVersion>
+        <AssemblyVersion>2022.22.29</AssemblyVersion>
+        <FileVersion>2022.22.29</FileVersion>
         <TargetFramework>net6.0-windows</TargetFramework>
         <RepositoryType>git</RepositoryType>
         <Copyright>leremin (c)</Copyright>
         <Authors>Leonid Eremin</Authors>
         <Title>PicoView.Wpf</Title>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Version>1.1.0</Version>
     </PropertyGroup>
 
     <ItemGroup>

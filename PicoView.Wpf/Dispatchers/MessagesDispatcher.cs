@@ -13,6 +13,7 @@ using ButtonType = Ookii.Dialogs.Wpf.ButtonType;
 using System.Reflection;
 using PicoView.Core.Dispatchers;
 using PicoView.Core.Properties;
+using TaskDialogButtonStyle = Ookii.Dialogs.Wpf.TaskDialogButtonStyle;
 
 namespace PicoView.Wpf.Dispatchers;
 
@@ -107,6 +108,28 @@ public sealed class MessagesDispatcher : IMessagesDispatcher
             default:
                 return null;
         }
+    }
+    
+    public bool AskQuestion(string mainInstruction, string content, string verificationText, out bool isVerificationChecked)
+    {
+        var taskDialog = new TaskDialog
+        {
+            WindowTitle = Title,
+            MainInstruction = mainInstruction,
+            Content = content,
+            Buttons = {new TaskDialogButton(ButtonType.Yes) {Default = true}, new TaskDialogButton(ButtonType.No)},
+            MinimizeBox = false,
+            EnableHyperlinks = true,
+            AllowDialogCancellation = false,
+            VerificationText = verificationText,
+            IsVerificationChecked = true,
+            ButtonStyle = TaskDialogButtonStyle.CommandLinks,
+            CustomMainIcon = SystemIcons.Question
+        };
+
+        var button = taskDialog.ShowDialog();
+        isVerificationChecked = taskDialog.IsVerificationChecked;
+        return button.ButtonType == ButtonType.Yes;
     }
     #endregion
 
