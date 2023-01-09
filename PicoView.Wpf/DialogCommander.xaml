@@ -9,11 +9,13 @@
         HorizontalAlignment="Right"
         Rows="1">
         <Button
+            Name="OkButton"
             IsDefault="True"
             VerticalAlignment="Center"
             Content="{x:Static resx:Resources.Ok}"
             Click="OnClickOk"/>
         <Button
+            Name="CancelButton"
             IsCancel="True"
             VerticalAlignment="Center"
             Content="{x:Static resx:Resources.Cancel}"/>

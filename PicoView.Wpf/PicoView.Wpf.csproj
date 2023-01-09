@@ -12,7 +12,7 @@
         <Authors>Leonid Eremin</Authors>
         <Title>PicoView.Wpf</Title>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-        <Version>1.2.1</Version>
+        <Version>1.2.3</Version>
     </PropertyGroup>
 
     <ItemGroup>
