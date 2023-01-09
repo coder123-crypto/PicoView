@@ -19,10 +19,10 @@ namespace PicoView.Wpf.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace PicoView.Wpf.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PicoView.Wpf.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace PicoView.Wpf.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,16 +63,25 @@ namespace PicoView.Wpf.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Все файлы.
         /// </summary>
-        internal static string AllFiles {
+        public static string AllFiles {
             get {
                 return ResourceManager.GetString("AllFiles", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Отмена.
+        /// </summary>
+        public static string Cancel {
+            get {
+                return ResourceManager.GetString("Cancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Открытие файла.
         /// </summary>
-        internal static string FileOpenning {
+        public static string FileOpenning {
             get {
                 return ResourceManager.GetString("FileOpenning", resourceCulture);
             }
@@ -81,7 +90,7 @@ namespace PicoView.Wpf.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Файлы.
         /// </summary>
-        internal static string Files {
+        public static string Files {
             get {
                 return ResourceManager.GetString("Files", resourceCulture);
             }
@@ -90,16 +99,25 @@ namespace PicoView.Wpf.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Как следует обработать этот файл?.
         /// </summary>
-        internal static string HowShouldToProccessThisFile {
+        public static string HowShouldToProccessThisFile {
             get {
                 return ResourceManager.GetString("HowShouldToProccessThisFile", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to OK.
+        /// </summary>
+        public static string Ok {
+            get {
+                return ResourceManager.GetString("Ok", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Открыть.
         /// </summary>
-        internal static string ToOpen {
+        public static string ToOpen {
             get {
                 return ResourceManager.GetString("ToOpen", resourceCulture);
             }
@@ -108,7 +126,7 @@ namespace PicoView.Wpf.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Открыть файл после сохранения.
         /// </summary>
-        internal static string ToOpenFileAfterSaveing {
+        public static string ToOpenFileAfterSaveing {
             get {
                 return ResourceManager.GetString("ToOpenFileAfterSaveing", resourceCulture);
             }
@@ -117,7 +135,7 @@ namespace PicoView.Wpf.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Сохранить в файл.
         /// </summary>
-        internal static string ToSaveInFile {
+        public static string ToSaveInFile {
             get {
                 return ResourceManager.GetString("ToSaveInFile", resourceCulture);
             }
